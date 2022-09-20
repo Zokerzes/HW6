@@ -15,6 +15,9 @@ namespace HW6
             WriteLine(money.ToString());
             money.setMoney(45, 56, "rub");
             WriteLine(money.ToString());
+
+            Product product = new Product("someThing", 234, 50, "rub");
+            WriteLine(product.ToString());
         }
     }
 }

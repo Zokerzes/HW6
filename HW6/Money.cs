@@ -9,13 +9,19 @@ namespace HW6
 {
     internal class Money
     {
-        string name;
-        int whole, fractional;
+        public string name;
+        public int whole, fractional;
         public Money()
         {
             name = "defalt";
             whole = 0;
             fractional = 0;
+        }
+        public Money(int wh, int fr, string n)
+        {
+            name = n;
+            whole = wh;
+            fractional = fr;
         }
         public override string ToString()
         {
