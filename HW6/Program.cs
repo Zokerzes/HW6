@@ -18,6 +18,8 @@ namespace HW6
 
             Product product = new Product("someThing", 234, 50, "rub");
             WriteLine(product.ToString());
+            product -= 34.50;
+            WriteLine(product.ToString());
         }
     }
 }

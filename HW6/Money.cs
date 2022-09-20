@@ -34,6 +34,11 @@ namespace HW6
             this.name = n;
             return this;
         }
+        public Money setMoney(string n)
+        {
+            this.name = n;
+            return this;
+        }
 
     }
 }
